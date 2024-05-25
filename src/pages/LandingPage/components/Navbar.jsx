@@ -41,7 +41,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="inline-flex">
-          <button className="bg-purple hidden md:block text-white px-4 py-1 rounded-md transition-all ease-in duration-150  hover:opacity-80">
+          <button className="bg-purple hidden md:block text-white px-4 py-2 rounded-md transition-all ease-in duration-150  hover:opacity-80">
             Shop Now
           </button>
           <button
