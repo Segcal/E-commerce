@@ -41,10 +41,9 @@ export default function Category() {
                 <img
                   src={item.image}
                   alt={item.name}
-                  width={250}
-                  className="hover:scale-105 transition-all ease-in-out duration-200"
+                  className="w-52 md:w-64 hover:scale-105 transition-all ease-in-out duration-200"
                 />
-                <p className="text-xl py-2">{item.name}</p>
+                <p className="md:text-xl text-sm py-2 ">{item.name}</p>
               </article>
             ))}
           </div>
