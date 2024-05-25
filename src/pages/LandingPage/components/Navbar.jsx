@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
   return (
     <>
-      <nav className="flex fixed top-0 w-full justify-between items-center bg-gray-50 py-4 lg:px-24 md:px-20 px-10 shadow-sm">
+      <nav className="flex fixed top-0 w-full z-30 justify-between items-center bg-gray-50 py-4 lg:px-24 md:px-20 px-10 shadow-sm">
         <Link to="/">
           <img
             src="https://res.cloudinary.com/dtrqikle5/image/upload/v1716182915/Coalfire_icon_Colour_rr5qjv.png"
